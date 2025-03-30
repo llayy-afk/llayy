@@ -1,0 +1,76 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+    string term;
+    
+    cout << "ENTER AN ENGINEERING_TERM: ";
+    cin >> term;
+
+    if (term == "FORCE") 
+        cout << "An interaction that changes the motion of an object.";
+    else if (term == "TORQUE") 
+        cout << "A measure of rotational force.";
+    else if (term == "STRAIN") 
+        cout << "Deformation of a material due to applied stress.";
+    else if (term == "STRESS") 
+        cout << "Force applied per unit area of a material.";
+    else if (term == "MOMENTUM") 
+        cout << "The product of mass and velocity of an object.";
+    else if (term == "VELOCITY") 
+        cout << "The speed of an object in a given direction.";
+    else if (term == "ACCELERATION") 
+        cout << "Rate of change of velocity.";
+    else if (term == "KINEMATICS") 
+        cout << "Study of motion without considering forces.";
+    else if (term == "THERMODYNAMICS") 
+        cout << "Study of heat and energy transfer.";
+    else if (term == "ENTROPY") 
+        cout << "A measure of disorder in a system.";
+    else if (term == "WORK") 
+        cout << "Energy transfer when a force is applied over a distance.";
+    else if (term == "POWER") 
+        cout << "Rate at which work is done.";
+    else if (term == "ENERGY") 
+        cout << "Capacity to do work.";
+    else if (term == "DENSITY") 
+        cout << "Mass per unit volume of a substance.";
+    else if (term == "BUOYANCY") 
+        cout << "Upward force exerted by a fluid on an object.";
+    else if (term == "HYDRAULICS") 
+        cout << "Use of fluid pressure to perform work.";
+    else if (term == "PNEUMATICS") 
+        cout << "Use of compressed air to perform work.";
+    else if (term == "CIRCUIT") 
+        cout << "A closed loop that allows current to flow.";
+    else if (term == "VOLTAGE") 
+        cout << "Electric potential between two points.";
+    else if (term == "RESISTANCE") 
+        cout << "Opposition to current flow in a material.";
+    else if (term == "CAPACITOR") 
+        cout << "A device that stores electrical energy.";
+    else if (term == "INDUCTOR") 
+        cout << "A device that stores energy in a magnetic field.";
+    else if (term == "TRANSFORMER") 
+        cout << "A device that changes voltage levels.";
+    else if (term == "CONCRETE") 
+        cout << "A composite material used in construction.";
+    else if (term == "BEAM") 
+        cout << "A structural element that resists bending.";
+    else if (term == "TRUSS") 
+        cout << "A framework of beams that distribute loads efficiently.";
+    else if (term == "CANTILEVER") 
+        cout << "A beam supported at one end.";
+    else if (term == "SHEAR") 
+        cout << "Force that causes layers of a material to slide.";
+    else if (term == "TORSION") 
+        cout << "Twisting force applied to an object.";
+    else if (term == "FATIGUE") 
+        cout << "Weakening of a material due to repeated stress.";
+    else 
+        cout << "Term not found in the database.";
+
+    return 0;
+}
